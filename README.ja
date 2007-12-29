@@ -1,0 +1,18 @@
+tee.rb: tee(1)みたいな何か。
+
+IOの出力をモニタリングしたいんだけど、でもそのIOへの出力自体は継続したいときとか
+がある。そういうときにコマンドラインならもちろんtee(1)とかを使うのだが、Rubyで書
+いてるんだし、世の中tee(1)がある世界ばかりとも限らん。
+
+なので自前で書きたくなるんだね。
+
+なお初出は[ruby-list:42064]
+
+
+# Local Variables:
+# mode: text
+# indent-tabs-mode: t
+# tab-width: 8
+# fill-column: 79
+# default-justification: full
+# End:
