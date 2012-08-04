@@ -27,7 +27,7 @@ Gem::Specification.new do |spec|
 	spec.author = "URABE Shyouhei"
 	spec.email = "shyouhei@ruby-lang.org"	
 	spec.files = %w"lib/tee.rb test/test_tee.rb"
-	spec.tests = %w"test/test_tee.rb"
+	spec.test_files = %w"test/test_tee.rb"
 end  
 
 
