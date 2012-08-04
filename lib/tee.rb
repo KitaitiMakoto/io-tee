@@ -30,7 +30,7 @@ module IO::Tee
 		end.class_eval do
 			define_method :write do |str|
 				Thread.exclusive do
-					super
+					super(str)
 					a.each do |i|
 						i.write str
 					end
