@@ -21,12 +21,12 @@
 require 'rubygems'
 
 Gem::Specification.new do |spec|
-	spec.name = "tee"
+	spec.name = "io-tee"
 	spec.version = "0.0.1"
 	spec.summary = "IO redirection a la tee(1)"
 	spec.author = "URABE Shyouhei"
 	spec.email = "shyouhei@ruby-lang.org"	
-	spec.files = %w"lib/tee.rb test/test_tee.rb"
+	spec.files = %w"lib/io/tee.rb test/test_tee.rb"
 	spec.test_files = %w"test/test_tee.rb"
 end  
 

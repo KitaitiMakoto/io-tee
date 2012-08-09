@@ -21,7 +21,7 @@
 require 'test/unit'
 require 'stringio'
 require 'tempfile'
-require 'tee'
+require 'io/tee'
 
 class TC_IO < Test::Unit::TestCase
 	def test_tee

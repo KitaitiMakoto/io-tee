@@ -18,7 +18,7 @@
 # CODE.
 
 require 'logger'
-require 'tee'
+require 'io/tee'
 
 logfile = open(File.expand_path('../../tmp/tee-log', __FILE__), 'ab')
 logfile.tee $stdout
